@@ -1,1 +1,7 @@
+Response 1: The Internet is a global network in which information is shown. The Web is the collection of information which is accessed by the internet.
 
+Response 2:The internet is a wire. Two computers connected to this wire can communicate with each other.
+
+Response 3:A directory is basically a file cabinet where files are stored.
+
+Response 4:A VCS is benificial because it allows multiple people to work on one project at the same time at any time and have the changes both incorperate to be saved.
