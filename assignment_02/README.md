@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head> 
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<title>Assignment 02</title>
+
 </head>
 
 <body>
