@@ -12,7 +12,7 @@
 <h2>Whitney Heinze</h2>
 <br>
 <br>
-<p> I am taking this class because I hope that someday I will be able to get a good job in the graphic design industry. I think that since web development is in such high demands now adays, this is the perfect class to take. I am hoping to learn.</p>
+<p> I am taking this class because I hope that someday I will be able to get a good job in the graphic design industry. I think that since web development is in such high demands now adays, this is the perfect class to take.  I enjoy to design and create different things for people. When it comes down to web design I am a bit lacking. I am hoping to learn.</p>
 <ul>
 <li>How to make a beautiful website for clients</li>
 <li>How to make a responsive website</li>
