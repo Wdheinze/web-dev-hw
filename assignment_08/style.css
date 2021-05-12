@@ -69,3 +69,23 @@ a:link {
     text-decoration: none;
   }
   
+  table{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-left: 100px;
+    border-style: groove;
+    border-width: 10px;
+    background-color: rgb(1, 0, 8);
+  }
+
+  #why{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-left: 100px;
+    border-style: groove;
+    border-width: 10px;
+    background-color: rgb(1, 0, 8);
+    width: 600px;  
+  }
