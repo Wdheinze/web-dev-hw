@@ -1,7 +1,4 @@
-body {
-    background-color: rgb(209, 225, 235);
-    font-family: Arial, Helvetica, sans-serif;
-    }
+
 
 
 
@@ -13,11 +10,13 @@ h1{
 nav{
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     font-size: 3ch;
     padding-left: 100px;
     border-style: groove;
     border-width: 10px;
     background-color: black;
+    width: 800px;
 }
 button{
     color: rgb(255, 255, 255);
@@ -33,7 +32,8 @@ button{
 padding-left: 100px;
 background-color: rgb(0, 0, 12);
 color: cornsilk;
-width: 600px;
+width: 800px;
+text-align: center;
 }
 
 hr{
@@ -87,7 +87,7 @@ a:link {
     border-style: groove;
     border-width: 10px;
     background-color: rgb(1, 0, 8);
-    width: 600px;  
+    width: 800px;  
   }
 
   #contactform{
