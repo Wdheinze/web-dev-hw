@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 body{
     text-align: center;
     width: 700px;
@@ -7,10 +5,19 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+* {
+    word-spacing: normal;
+  }
+  
+
+h1{
+    font-family: 'Bebas Neue', 'Teko', sans-serif; 
+}
 
 p{
-    font-family:  'Times New Roman', sans-serif ;
+    font-family: 'Padauk', 'Times New Roman', Times, sans-serif;
 }
+/*font-family: 'Bebas Neue', cursive;*/
 
 p::first-letter {
     color: #2c0000;
@@ -19,3 +26,41 @@ p::first-letter {
 p::first-line {
     color: #5091AD;
   }
+
+  button{
+      border-width: 5px;
+      border-style: double;
+      border-radius: 50%;
+      
+  }
+  a{
+      font-family: 'Bebas Neue', cursive;;
+      font-size: 19px;
+      
+      color: black;
+      transition-duration: 0.5s;
+      
+  }
+  a:hover{
+    border-width: 6px;
+    background-color: black;
+    color: wheat;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+    
+
+    #title{
+        background-color:whitesmoke;
+        color: #2c0000;
+    }
+
+    .para{
+        font-size: 19px;
+        line-height: 1.45em;
+        font-kerning: 1em;
+        
+    }
+
+    #story{
+       border-style: double; 
+       border-width: .75em;
+    }
