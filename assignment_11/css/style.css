@@ -41,7 +41,7 @@ button{
 #blob{
     background-color: black;
     width: 200px;
-    height: 900px;
+    height: 950px;
     float: left;
     border: rgb(26, 113, 172);
     border-style: groove;
@@ -65,7 +65,7 @@ button{
 #side{
     background-color: black;
     width: 200px;
-    height: 900px;
+    height: 950px;
     float: right;
     border: rgb(26, 113, 172);
     border-style: groove;
