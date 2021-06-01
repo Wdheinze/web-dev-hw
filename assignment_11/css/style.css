@@ -72,13 +72,13 @@ button{
     border-width: 5px;
 }
 
-.parallax {
-    background-image: url("lemon.jpg");
-  
-    min-height: 500px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.photos{
+ margin-left: 600px;
+ margin-right: 550px;
+ border: rgb(26, 113, 172);
+    border-style: groove;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+ 
+}
