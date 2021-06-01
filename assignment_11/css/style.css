@@ -1,3 +1,9 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(57, 136, 136);
+    
+}
+
 .hidden-content {
     display: none;
     font-size: 1em;
@@ -24,11 +30,22 @@
     float: left;
 }
 
+button{
+    border: rgb(26, 113, 172);
+    border-style: groove;
+    border-width: 5px;
+    width: 100px;
+    height: 50px;
+}
+
 #blob{
     background-color: black;
     width: 200px;
     height: 900px;
     float: left;
+    border: rgb(26, 113, 172);
+    border-style: groove;
+    border-width: 5px;
 }
 
 #title{
@@ -39,5 +56,29 @@
     size: 2em;
     text-align: center;
     margin-left: 200px;
-    width: 1000px;
+    width: 1200px;
+    border: rgb(26, 113, 172);
+    border-style: groove;
+    border-width: 5px;
 }
+
+#side{
+    background-color: black;
+    width: 200px;
+    height: 900px;
+    float: right;
+    border: rgb(26, 113, 172);
+    border-style: groove;
+    border-width: 5px;
+}
+
+.parallax {
+    background-image: url("lemon.jpg");
+  
+    min-height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
