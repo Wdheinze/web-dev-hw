@@ -1,0 +1,12 @@
+.hidden-content {
+    display: none;
+    font-size: 1em;
+    font-style: italic;
+    padding: 1em;
+    background-color:black;
+    color: blanchedalmond;
+    width:100px;
+}
+.drop:hover .hidden-content {
+    display: block;
+}
