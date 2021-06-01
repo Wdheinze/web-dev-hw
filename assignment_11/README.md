@@ -1,9 +1,3 @@
-.hidden-content {
-    display: none;
-    font-size: 1em;
-    font-style: italic;
-    padding: 1em;
-}
-#home:hover .hidden-content {
-    display: block;
-}
+1:
+2:
+3:!./images/site-sketch.jpg
