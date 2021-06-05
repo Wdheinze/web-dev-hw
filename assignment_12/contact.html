@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<head>
+
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ContactPearle</title>
+
+    <meta name="description" content="A Css Website">
+    <meta name="author" content="Whitney Heinze">
+    <meta name="umclass" content="Intro to Web Design">
+    <meta name="contentfrom" content="Keyboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<nav>
+    <div id="title">
+        <img src="images/logo.png" width="200px" height="200px" alt="Pearle's Logo">
+    </div>
+    <div class="drop">
+        <button><a href="index.html">Home</a></button>
+    </div>
+    <div class="drop">
+        <button><a href="services.html">Services</a></button>
+        <div class="hidden-content">
+            <button>Massage</button>
+            <button>Facial </button>
+            <button>Manicure </button>
+            <button>Pedicure </button>
+        </div>
+    </div>
+    <div class="drop">
+        <div id="navi"><button><a href="about.html">About Us</a></button></div>
+    </div>
+    <div class="drop">
+        <button id="contact"><a href="contact.html">Contact Us</a> </button>
+        <div class="hidden-content">
+            <button><a href="https://www.fb.com/" target="_blank">Facebook</a></button>
+            <button><a href="https://www.instagram.com/" target="_blank">Instagram</a></button>
+            <button><a href="https://www.twitter.com/" target="_blank">Twitter</a></button>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div id="imgs"><img src="images/Contact cover.jpg" width="2000px" height="750px"></div>
+    <form action="info.php" method="GET" id="contactUs">
+        <h1>Book your Appointment</h1>
+        <p>Please enter your name</p><input type="text" name="yourname" id="usersname" />
+        <p>
+
+        <h2>What day do you want your appointment?</h2>
+        <input type="radio" name="grade" value="Monday" checked />Monday Please
+        <br />
+        <input type="radio" name="grade" value="Tuesday" />Tuesday Please
+        <br />
+        <input type="radio" name="grade" value="Wednesday" />Wednesday Please
+        <br />
+        <input type="radio" name="grade" value="Thursday" />Thursday Please
+        <br>
+        <input type="radio" name="grade" value="Friday" />Friday Please
+        <br>
+        <input type="radio" name="grade" value="Saturday" />Saturday Please
+        <br>
+        <h2>Closed Sundays</h2>
+        Please type what service/'s you would like and what time
+
+        <textarea name="questions" id="enterquestion" placeholder="enter up to 500 characters"></textarea>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
