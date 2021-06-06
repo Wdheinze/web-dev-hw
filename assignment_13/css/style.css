@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+body{
+    background-color: #050066;
+    color: #EDD1FF;
+}
+
+p,h1,h2{
+    font-family: 'Source Code Pro','Padauk', monospace;
+}
+
+.hidden-content {
+    display: none;
+    font-size: 7px;
+    font-style: italic;
+    padding: 1em;
+  
+}
+.drop:hover .hidden-content {
+    display: block;
+}
+
+.drop{
+    text-align: center;
+}
+
+a{
+    color: #FFF3D1;
+    font-size: 24px;
+}
+
+button{
+    font-size: 30px;
+    background-color: black;
+    border-style: dotted;
+    border-color:#FFF3D1;
+}
+a:link {
+    text-decoration: none; 
+    border-width: 5px;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #00A628;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #4E767F;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #00A628;
+    text-shadow: 2px 2px #FFF3D1;
+   }
+
+
+nav,ul{
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+      list-style: none;
+}
+
+#navs{
+    background-color: black;
+    color: #FFF3D1;
+    width: 225px;
+    height: 900px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
+button{
+border-style: dotted;
+border-width: 3px;
+color: #FFF3D1;
+
+}
+
+/*Nav is done*/
+table,th,td{
+    border-width: 5px;
+    border-style: ridge;
+    border-color:#FFF3D1;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#imagebox{
+    float: right;
+    margin-right: 150px;
+    display: inline;
+}
+p{
+    text-align: left;
+}
+
+.imbox{
+    border-color:#FFF3D1;
+    border-width: 5px;
+    float: left;
+   }
+   .inbox{
+    border-color:#FFF3D1;
+    border-width: 5px;
+    float: right;
+    padding-top: 300px;
+    padding-right: 150px;
+   }
+
+   .box{
+    border-color:#FFF3D1;
+    border-width: 5px;
+    float: left;
+   }
+
+h2{
+    text-shadow: 2px 2px 4px #FFF3D1;
+}
+
+h1{
+    text-shadow: 2px 2px 4px #FFF3D1;
+}
+h3,h4,h5,form{
+    font-family: 'Merriweather Sans','Overpass', sans-serif;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<head>
+
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contact Fow</title>
+
+    <meta name="description" content="Final Project">
+    <meta name="author" content="Whitney Heinze">
+    <meta name="umclass" content="Intro to Web Design">
+    <meta name="contentfrom" content="Keyboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div id="navs">
+    <img src="images/phot.jpg" alt="A profile picture" width="150px" height="150px">
+    <nav>
+
+        <ul>
+            <li> <button><a href="index.html">Home</a></button></li>
+            <li> <button><a href="gallery.html">Gallery</a></button></li>
+            <li> <button><a href="about.html">About Me</a></button></li>
+            <div class="drop">
+                <li> <button id="contact"><a href="contact.html">Contact Me<p>&nabla;</p></a>
+
+                    </button>
+                    <div class="hidden-content">
+                        <button><a href="https://www.instagram.com/mercurysfate" target="_blank">Instagram</a></button>
+                </li>
+            </div>
+</div>
+
+</ul>
+</nav>
+
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Sketching</th>
+            <th scope="col">Lining</th>
+            <th scope="col">Coloring</th>
+        </tr>
+        <tr>
+            <th scope="row">Time it takes</th>
+            <td>1 Hour</td>
+            <td>2.5 Hours</td>
+            <td>2.5+ Hours</td>
+        </tr>
+
+    </table>
+    <form action="info.php" method="GET" id="contactUs">
+        <h1>Order an Commission</h1>
+        <br>
+        <p>Please enter your email</p><input type="text" name="yourname" id="usersname" />
+        <p>
+
+        <h2>What would you like to Order</h2>
+        <input type="radio" name="grade" value="asketch" checked />Just a sketch
+        <br />
+        <input type="radio" name="grade" value="aline" />Line Art please
+        <br />
+        <input type="radio" name="grade" value="coloredp" />Colored Piece
+        <br />
+        <input type="radio" name="grade" value="other" />Other
+        <br>
+
+        Please specify what you would like if other
+
+        <textarea name="questions" id="enterquestion" placeholder="enter details of the Commission here"></textarea>
+        </p>
+
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="mailto:mercurysfate@gmail.com?subject=New Commission">Or Email Me Directly</a>
+
+</body>
+
+</html>
