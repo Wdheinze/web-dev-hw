@@ -10,4 +10,6 @@
 2. How to make a responsive website
 3. How to control the size of text on websites
 
+ [Responses text](assignment_02/responses.txt)
+
 ![The screenshot 2](.images/screenshot2.PNG)

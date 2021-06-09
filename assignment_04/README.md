@@ -3,4 +3,5 @@
 2:Github desktop honestly makes life so much easier. I enjoy using it to speed up my uploading process. Github in itself seems to be a very well developed tool where people that do not know much about web development can play around. I bet professionals use it also. I personally enjoy using it for my coding adventures.
 
 3:
-<img src="images/screenshot4.PNG">
+
+![The screenshot 4](images/screenshot4.png)
