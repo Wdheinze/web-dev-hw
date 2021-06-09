@@ -1,4 +1,7 @@
 Response 1:Data travels accross the internet inside of packets. Packets travel through machines until they reach their destination. The computer then grabs the data and puts it together like a puzzle.
+
 Response 2:An IP address is basically a number assigned to a computer. Kinda like a unique home address, it can identify a computer on a given network.  A Domain Name Service is a process in which an IP address is given a domain name. This is usually used for hosting services. 
+
 Response 3: Cookies! some people think that cookies are viruses. Which is silly. Cookies are data that is stored directly on the web browser to remember things like what links you have clicked or just information.  It's used to identify and give people a more pleasent web browsing experience.
+
 Response 4:The three basic parts. The protocol, The domain name, and the path. 
